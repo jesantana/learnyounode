@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Instalaciones\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Instalaciones\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   'how-to-npm' ]
+2 info using npm@2.7.5
+3 info using node@v0.10.35
+4 verbose node symlink D:\Instalaciones\nodejs\\node.exe
+5 silly mapToRegistry name how-to-npm
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry http://localhost:15443/
+8 silly mapToRegistry uri http://localhost:15443/how-to-npm
+9 verbose request uri http://localhost:15443/how-to-npm
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 21:28:37
+12 verbose request id 98b0e9dd1b9da031
+13 http request GET http://localhost:15443/how-to-npm
+14 http 404 http://localhost:15443/how-to-npm
+15 verbose headers { 'content-type': 'application/json',
+15 verbose headers   date: 'Wed, 08 Apr 2015 19:28:37 GMT',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'transfer-encoding': 'chunked' }
+16 silly get cb [ 404,
+16 silly get   { 'content-type': 'application/json',
+16 silly get     date: 'Wed, 08 Apr 2015 19:28:37 GMT',
+16 silly get     connection: 'keep-alive',
+16 silly get     'transfer-encoding': 'chunked' } ]
+17 verbose stack Error: missing : how-to-npm
+17 verbose stack     at CachingRegistryClient.<anonymous> (D:\Instalaciones\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:247:14)
+17 verbose stack     at Request._callback (D:\Instalaciones\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+17 verbose stack     at Request.self.callback (D:\Instalaciones\nodejs\node_modules\npm\node_modules\request\request.js:360:22)
+17 verbose stack     at Request.emit (events.js:98:17)
+17 verbose stack     at Request.<anonymous> (D:\Instalaciones\nodejs\node_modules\npm\node_modules\request\request.js:1202:14)
+17 verbose stack     at Request.emit (events.js:117:20)
+17 verbose stack     at IncomingMessage.<anonymous> (D:\Instalaciones\nodejs\node_modules\npm\node_modules\request\request.js:1150:12)
+17 verbose stack     at IncomingMessage.emit (events.js:117:20)
+17 verbose stack     at _stream_readable.js:944:16
+17 verbose stack     at process._tickCallback (node.js:442:13)
+18 verbose statusCode 404
+19 verbose pkgid how-to-npm
+20 verbose cwd D:\Programas\JS\learnyounode\learnyounode\npm\exercise1
+21 error Windows_NT 6.1.7601
+22 error argv "D:\\Instalaciones\\nodejs\\\\node.exe" "D:\\Instalaciones\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "how-to-npm"
+23 error node v0.10.35
+24 error npm  v2.7.5
+25 error code E404
+26 error 404 missing : how-to-npm
+26 error 404
+26 error 404 'how-to-npm' is not in the npm registry.
+26 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]

@@ -1,0 +1,16 @@
+{
+  "name": "exercise1",
+  "version": "1.0.1",
+  "description": "I just want to pass this exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Julio El salvaje",
+  "license": "ISC",
+  "dependencies": {
+    "once": "^1.3.0"
+  },
+  "repository": "https://santescas.blogspot.com"
+
+}
