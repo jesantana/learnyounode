@@ -1,6 +1,6 @@
 var through2=require('through2');
 
-var upperCaseStream=through2({},write,end);
+var upperCaseStream=through2(write,end);
 
 
 process.stdin.pipe(upperCaseStream).pipe(process.stdout);
